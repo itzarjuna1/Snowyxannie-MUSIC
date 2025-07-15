@@ -61,7 +61,7 @@ def music_start_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="+ Add me to your clan darlo +",
+                text="+ Add me to your clan Baby +",
                 url=f"https://t.me/{app.username}?startgroup=true",
             )
         ],
