@@ -81,7 +81,7 @@ def aq_markup(_, chat_id):
         [
             InlineKeyboardButton(
                 text="๏ ᴍᴏʀᴇ ๏",
-                url="https://t.me/kittyxupdates",
+                url="https://t.me/dark_x_knight_musiczz_support",
             ),
         ],
     ]
@@ -116,7 +116,7 @@ def queuemarkup(_, vidid, chat_id):
         [
             InlineKeyboardButton(
                 text="๏ ᴍᴏʀᴇ ๏",
-                url="https://t.me/kittyxupdates",
+                url="https://t.me/+9BfnSgBRqAs4M2M1",
             ),
         ],
     ]
