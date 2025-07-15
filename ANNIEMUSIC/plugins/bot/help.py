@@ -497,9 +497,9 @@ async def tools_callback_cb(client, CallbackQuery, _):
 async def about_callback(client: Client, callback_query: CallbackQuery):
     buttons = [
         [
-            InlineKeyboardButton(text="🇲σ᭡፝֟ɳ🌙", url=f"https://t.me/about_ur_moonshining/5"),
+            InlineKeyboardButton(text="ɢx ᴅᴀʀᴋ ʙᴏᴛs [🇮🇳]", url=f"https://t.me/dark_x_knight_musiczz_support"),
             InlineKeyboardButton(
-                text="Owner's clan 🎄", url=f"https://t.me/grandxmasti"
+                text="Owner's clan 🎄", url=f"https://t.me/+9BfnSgBRqAs4M2M1"
             ),
         ],
         [
@@ -511,7 +511,7 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
         ],  # Use a default label for the back button
     ]
     await callback_query.message.edit_text(
-        "**Hey,**\n\n**I am Annie bot ✨**\n**I am created with love by my [🇲σ᭡፝֟ɳ](https://t.me/about_ur_moonshining/5)🌙 ❤.**",
+        "**Hey,**\n\n**I am Snowy bot ✨**\n**I am created with love by my [ɢx ᴅᴀʀᴋ ʙᴏᴛs [🇮🇳]](https://t.me/dark_x_knight_musiczz_support)🌙 ❤.**",
         reply_markup=InlineKeyboardMarkup(buttons),
     )
 
@@ -535,7 +535,7 @@ async def feature_callback(client: Client, callback_query: CallbackQuery):
         ],
         [InlineKeyboardButton(text="✯ Home ✯", callback_data="go_to_start")],
     ]
-    k = f"""Annie bot 🦋 help menu ✨*"""
+    k = f"""Snowy bot 🦋 help menu ✨*"""
     await callback_query.message.edit_text(
         text=k, reply_markup=InlineKeyboardMarkup(keyboard)
     )
@@ -775,7 +775,7 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
             ),
         ],
         [
-            InlineKeyboardButton(text="⭐ Support ⭐", url=f"t.me/grandxmasti"),
+            InlineKeyboardButton(text="⭐ Support ⭐", url=f"t.me/dark_x_knight_musiczz_support"),
             InlineKeyboardButton(text="👨‍💻Developer", callback_data="developer"),
         ],
         [
@@ -816,12 +816,12 @@ async def back_button_callback(client: Client, callback_query: CallbackQuery):
             InlineKeyboardButton(text="Developer 👨‍💻", user_id=config.OWNER_ID[0]),
             InlineKeyboardButton(
                 text="🌱ɢɪᴛʜᴜʙ🌱",
-                url="https://github.com/moonshining1/annie-music/fork",
+                url="https://t.me/dark_x_knight_musiczz_support",
             ),
         ],
         [
             InlineKeyboardButton(text="⛅Group⛅", url=f"https://t.me/grandxmasti"),
-            InlineKeyboardButton(text="🎄Update🎄", url=f"https://t.me/kittyxupdates "),
+            InlineKeyboardButton(text="🎄Update🎄", url=f"https://t.me/dark_x_knight_musiczz_support "),
         ],
         [InlineKeyboardButton(text="✯ ʜᴏᴍᴇ ✯", callback_data="go_to_start")],
     ]
@@ -839,7 +839,7 @@ async def back_button_callback(client: Client, callback_query: CallbackQuery):
             InlineKeyboardButton(text="Developer 👨‍💻", callback_data="developer"),
             InlineKeyboardButton(
                 text="🌱Github🌱",
-                url="https://github.com/moonshining1/annie-music/fork",
+                url="https://t.me/dark_x_knight_musiczz_support",
             ),
         ],
         [
@@ -860,7 +860,7 @@ async def back_button_callback(client: Client, callback_query: CallbackQuery):
             InlineKeyboardButton(text="Developer 👨‍💻", callback_data="developer"),
             InlineKeyboardButton(
                 text="🌱Repo🌱",
-                url="https://github.com/moonshining1/annie-music",
+                url="https://t.me/dark_x_knight_musiczz_support",
             ),
         ],
         [
@@ -871,7 +871,7 @@ async def back_button_callback(client: Client, callback_query: CallbackQuery):
     ]
     
     await callback_query.message.edit_text(
-        "Hey,\nThis is Annie bot 🦋\n\nAn open source telegram group management+ music bot\nHere is my source code [Repo](https://github.com/moonshining1/annie-music/fork) (✿◠‿◠)",
+        "Hey,\nThis is Annie bot 🦋\n\nAn open source telegram group management+ music bot\nHere is my source code [Repo](https://github.com/Gx-Toxic/Snowy-music/fork) (✿◠‿◠)",
         reply_markup=InlineKeyboardMarkup(keyboard),
     )
 
