@@ -19,17 +19,17 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "24880308"))
 
-API_HASH = getenv("API_HASH")
+API_HASH = getenv("API_HASH", "fce3dc86e231613c5e0e164cdf8f1ca9")
 
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "7597057529:AAG4TvzqXvlT3hSxddwXatGGvdmkyBcdlm0")
 
-BOT_USERNAME = getenv("BOT_USERNAME", "musicXanime_bot")
+BOT_USERNAME = getenv("BOT_USERNAME", "snowy_x_musicbot")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://knight4563:knight4563@cluster0.a5br0se.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"None)
 
 
 CLEANMODE_DELETE_MINS = int(
@@ -54,7 +54,7 @@ EXTRA_PLUGINS = getenv(
 
 EXTRA_PLUGINS_REPO = getenv(
     "EXTRA_PLUGINS_REPO",
-    "https://github.com/Moonshining1/ANNIE-MUSIC", 
+    "https://github.com/itzarjuna1/Snowyxannie-MUSIC", 
 )
 # iss link ko mt remove krna harmai ye management wlaa hai isme hi sub code hai management ke liye..
 # Fill here the external plugins repo where plugins that you want to load
@@ -72,12 +72,12 @@ SONG_DOWNLOAD_DURATION = int(
 
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002643544937"))
 
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "7297381612").split())
+    map(int, getenv("OWNER_ID", "7926944005").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -111,14 +111,14 @@ AUTO_GCAST_MSG = getenv("AUTO_GCAST_MSG", "")
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/Kittyxupdates"
+    "SUPPORT_CHANNEL", "https://t.me/dark_x_knight_musiczz_support"
 )  # Example:- https://t.me/VIP_CREATORS
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/TG_FRIENDSS"
+    "SUPPORT_GROUP", "https://t.me/dark_knight_support"
 )  # Example:- https://t.me/TG_FRIENDSS
 
 SUPPORT_CHAT = getenv(
-    "SUPPORT_GROUP", "https://t.me/Grandxmasti"
+    "SUPPORT_GROUP", "https://t.me/dark_knight_support"
 )  # Example:- https://t.me/Grandxmasti
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
@@ -141,7 +141,7 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/Moonshining1/ANNIE-MUSIC")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/itzarjuna1/snowyxanniemusic-music")
 
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
@@ -181,7 +181,7 @@ SET_CMDS = getenv("SET_CMDS", "False")
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @VIPStringBot
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "AQF7pLQAojetQZtb9UXJs4lyP3JPmWAk-kFniZR4cciu1Lh5svG19MFQ0uZjSxH0HwLQczOgfc-CZn_TAdjEQTOUp7wumUntlr7GdPFTyL5IT7oI0pExGSgu8cXb9UJ6lozm12nW3jjQ7kfP4IZJPLtzbZ5fp0Qc8Z72k09EavrM_nmddtYjXsETOxBez2j3IC6kiFHQ2jQB3RvhTFvi6cVSXytwU_pXEk2rb8WqwttXEJUp5ar4ZOSgplWfI7AY1xpM-FLTUTgjAO3ddPCF8ii9OSBfmz4Dr-pX26x8bQt_7CMqcyUZnnD7o6-xXRy2AJoM2pUAOLlVgpryPSsdVhQ5hMkMIQAAAAHoG-_JAA"None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
