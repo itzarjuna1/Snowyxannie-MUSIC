@@ -71,7 +71,7 @@ def music_start_panel(_):
         ],
         [
             InlineKeyboardButton(text="❄ Owner ❄", callback_data="developer"),
-            InlineKeyboardButton(text="🎄 Update 🎄", url="https://t.me/kittyxupdates"),
+            InlineKeyboardButton(text="🎄 Update 🎄", url="https://t.me/dark_x_knight_musiczz_support"),
         ],
     ]
     return buttons
