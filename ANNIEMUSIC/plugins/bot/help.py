@@ -185,8 +185,8 @@ async def help_command(client, message):
     # Define the buttons
     keyboard = InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton("• Add me •", url="https://t.me/MeowstericXBot?startgroup=true")],
-            [InlineKeyboardButton("• Update •", url="https://t.me/kittyxupdates")]
+            [InlineKeyboardButton("• Add me •", url="https://t.me/Infinity_X_Destiny_Bot?startgroup=true")],
+            [InlineKeyboardButton("• Update •", url="https://t.me/dark_x_knight_musiczz_support")]
         ]
     )
     
