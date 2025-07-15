@@ -864,7 +864,7 @@ async def back_button_callback(client: Client, callback_query: CallbackQuery):
             ),
         ],
         [
-            InlineKeyboardButton(text="Annie updates", url=f"https://t.me/kittyxupdates"),
+            InlineKeyboardButton(text="Snowy updates", url=f"https://t.me/dark_x_knight_musiczz_support"),
             InlineKeyboardButton(text="Share ur query💡", url=f"https://t.me/dark_x_knight_musiczz_support"),
         ],
         [InlineKeyboardButton(text="✯ ʜᴏᴍᴇ ✯", callback_data="go_to_start")],
